@@ -50,13 +50,16 @@ body {
     /* 撐開內邊距 */
     padding: 3%;
     /* 陰影 */
-    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px 1px rgba(204, 17, 17, 0.2);
     /* 外框 */
-    border: 1px solid #51515130;
+    border: 1px solid #308d4c30;
     /* 變形, 幅度為 .3rem (圓角矩形) */
     border-radius: .3rem;
     /* 過度動畫長度指定半秒鐘 */
     transition: all .5s;
+    background-color: #3498db;  /* 設定按鈕顏色 (可按需更改) */
+    color: white;               /* 文字顏色 */
+    font-size: 20px;  
 }
 
 /* 冒號的意思是選擇虛擬類別 */
@@ -64,7 +67,76 @@ body {
 /* 虛擬類別選擇器, 這裡選擇這東西被滑鼠懸停時的狀態 */
 .wrapper .btn:hover {
     /* 外框 */
-    border: 1px solid #51515150;
+    border: 1px solid #515151a6;
     /* 陰影 */
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    background-color: #a34f17;  /* 懸停時按鈕顏色變深 */
+}
+.wrapper .custom-btn1 {
+     /* 指定寬度 */
+     width: 50rem;
+     /* 撐開內邊距 */
+     padding: 3%;
+     /* 陰影 */
+     box-shadow: 1px 1px 1px 1px rgba(204, 17, 17, 0.2);
+     /* 外框 */
+     border: 1px solid #308d4c30;
+     /* 變形, 幅度為 .3rem (圓角矩形) */
+     border-radius: .3rem;
+     /* 過度動畫長度指定半秒鐘 */
+     transition: all .5s;
+    background-color: #3d0d8a;
+    color: #96b9b5;
+    font-size: 15px;
+}
+.wrapper .custom-btn2 {
+     /* 指定寬度 */
+     width: 50rem;
+     /* 撐開內邊距 */
+     padding: 3%;
+     /* 陰影 */
+     box-shadow: 1px 1px 1px 1px rgba(204, 17, 17, 0.2);
+     /* 外框 */
+     border: 1px solid #308d4c30;
+     /* 變形, 幅度為 .3rem (圓角矩形) */
+     border-radius: .3rem;
+     /* 過度動畫長度指定半秒鐘 */
+     transition: all .5s;
+    background-color: #17a3a3;
+    color: antiquewhite;
+    font-size: 28px;
+}
+.wrapper .custom-btn3 {
+     /* 指定寬度 */
+     width: 50rem;
+     /* 撐開內邊距 */
+     padding: 3%;
+     /* 陰影 */
+     box-shadow: 1px 1px 1px 1px rgba(204, 17, 17, 0.2);
+     /* 外框 */
+     border: 1px solid #308d4c30;
+     /* 變形, 幅度為 .3rem (圓角矩形) */
+     border-radius: .3rem;
+     /* 過度動畫長度指定半秒鐘 */
+     transition: all .5s;
+    background-color: #8a0d60;
+    color:#e4e1eb;
+    font-size: 30px;
+}
+.wrapper .custom-btn4 {
+     /* 指定寬度 */
+     width: 50rem;
+     /* 撐開內邊距 */
+     padding: 3%;
+     /* 陰影 */
+     box-shadow: 1px 1px 1px 1px rgba(204, 17, 17, 0.2);
+     /* 外框 */
+     border: 1px solid #308d4c30;
+     /* 變形, 幅度為 .3rem (圓角矩形) */
+     border-radius: .3rem;
+     /* 過度動畫長度指定半秒鐘 */
+     transition: all .5s;
+    background-color: #3ab614;
+    color: aliceblue;
+    font-size: 32px;
 }
